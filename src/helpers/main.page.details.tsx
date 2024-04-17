@@ -16,7 +16,7 @@ export const mainPageDetails = {
     ),
     description: (
       <span className="font-bold">
-        Tools to help your grow your open-source repository.<br />
+        Tools to help you grow your open-source repository.<br />
         Gain more visibility, stars, contributions and customers.<br />
         Get free weekly value by registering to the newsletter 👇
       </span>
