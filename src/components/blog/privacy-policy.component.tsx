@@ -167,7 +167,7 @@ export const PrivacyPolicyComponent: FC<{
             information by contacting us. You may also opt-out
           </p>
 
-          <h2>8. Your Rights and Choices</h2>
+          <h2>8. Google API Services User Data Policy Compliance</h2>
           <p>
             Google API Services User Data Policy Compliance
 
