@@ -33,16 +33,15 @@ export const PrivacyPolicyComponent: FC<{
       />
       <BlogLayout stargazers_count={stargazers_count} image="">
         <div className="blog-container">
-          <h1>Privacy Policy for Linvo, Inc. - GitHub 20K Course</h1>
+          <h1>Privacy Policy for Gitroom</h1>
 
           <p>
-            At Linvo, Inc. ({'"'}Company{'"'}, {'"'}we{'"'}, {'"'}us{'"'}, or {'"'}our{'"'}), we are committed
+            At Gitroom LLC. ({'"'}Company{'"'}, {'"'}we{'"'}, {'"'}us{'"'}, or {'"'}our{'"'}), we are committed
             to protecting the privacy and security of the personal information
             of our users. This Privacy Policy outlines how we collect, use, and
-            safeguard the personal information collected on our website,
-            including during the registration process for our GitHub 20K Course
-            ({'"'}Course{'"'}). By accessing or using our website, registering for the
-            Course, and providing your personal information, you agree to the
+            safeguard the personal information collected on our website.
+            By accessing or using our website, registering for the
+            Website, and providing your personal information, you agree to the
             terms and conditions of this Privacy Policy.
           </p>
 
@@ -50,7 +49,7 @@ export const PrivacyPolicyComponent: FC<{
 
           <p>
             We may collect personal information from you when you register for
-            the Course, subscribe to our newsletter, make a payment, or interact
+            the Gitroom platform, subscribe to our newsletter, make a payment, or interact
             with our website. The types of personal information we may collect
             include:
           </p>
@@ -80,12 +79,11 @@ export const PrivacyPolicyComponent: FC<{
           </p>
 
           <ul>
-            <li>Providing and improving our Course and services</li>
             <li>Sending newsletters and marketing communications</li>
-            <li>Processing payments for Course registration</li>
+            <li>Processing payments for via Stripe</li>
             <li>
               Responding to inquiries, providing customer support, and
-              communicating with you about the Course
+              communicating.
             </li>
             <li>
               Monitoring and analyzing website usage, trends, and effectiveness
@@ -109,7 +107,7 @@ export const PrivacyPolicyComponent: FC<{
             <li>
               Service Providers: We may engage third-party service providers,
               such as payment processors or email marketing platforms, to assist
-              us in providing and improving our Course and services. These
+              us in providing and improving our services. These
               service providers may have access to your personal information
               only for the purpose of performing their services on our behalf
               and are obligated not to disclose or use it for any other purpose.
@@ -144,7 +142,7 @@ export const PrivacyPolicyComponent: FC<{
           <p>
             If you have subscribed to our newsletter or provided us with your
             contact information, we may send you marketing communications about
-            our Course, services, promotions, and other relevant information.
+            our services, promotions, and other relevant information.
             You can opt-out of receiving marketing communications from us by
             following the instructions provided in the communications or by
             contacting us directly.
@@ -167,6 +165,13 @@ export const PrivacyPolicyComponent: FC<{
             You have certain rights and choices regarding your personal
             information. You may update, correct, or delete your personal
             information by contacting us. You may also opt-out
+          </p>
+
+          <h2>8. Your Rights and Choices</h2>
+          <p>
+            Google API Services User Data Policy Compliance
+
+            Linvo, Inc. complies with the Google API Services User Data Policy, including the Limited Use requirements, to ensure the privacy and security of our users{"'"} data. For more details, visit <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Customer Data Policy</a>.
           </p>
         </div>
       </BlogLayout>
