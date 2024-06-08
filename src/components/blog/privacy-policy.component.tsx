@@ -169,9 +169,7 @@ export const PrivacyPolicyComponent: FC<{
 
           <h2>8. Google API Services User Data Policy Compliance</h2>
           <p>
-            Google API Services User Data Policy Compliance
-
-            Linvo, Inc. complies with the Google API Services User Data Policy, including the Limited Use requirements, to ensure the privacy and security of our users{"'"} data. For more details, visit <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Customer Data Policy</a>.
+            Gitroom LLC complies with the Google API Services User Data Policy, including the Limited Use requirements, to ensure the privacy and security of our users{"'"} data. For more details, visit <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Customer Data Policy</a>.
           </p>
         </div>
       </BlogLayout>
