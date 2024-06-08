@@ -41,7 +41,7 @@ export const TermsOfServiceComponent: FC<{
           </p>
           <h2>1. Course Subscription</h2>
           <p>
-            You may purchase a subscription to our {'"'}GitHub 20K{'"'} course. The
+            You may purchase a subscription to our {'"'}Gitroom LLC{'"'} course. The
             subscription will grant you access to the course content for a
             limited period of time, as specified during the checkout process.
             You agree to use the course content for personal, non-commercial
