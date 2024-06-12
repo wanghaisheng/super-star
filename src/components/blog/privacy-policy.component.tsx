@@ -124,6 +124,12 @@ export const PrivacyPolicyComponent: FC<{
               transferred to the acquiring entity or third party as part of the
               transaction.
             </li>
+            <li>
+              Third Party: Our primary purpose for using information is to publish your content on social networks you{"'"}ve authenticated with.<br />
+              We may allow you to link your account on Gitroom LLC with an account on a third party social network platform, such as Facebook, Google and Pinterest and to transfer your information to and from the applicable third party platform.<br />
+              Once you share your content to a social media platform, its use will be governed by that platform’s privacy policy.<br />
+              For example, if you choose to connect your Youtube account to the Services, this connection uses Google’s API services, and the Google Privacy Policy located at <a href="https://policies.google.com/privacy" className="underline hover:font-bold">https://policies.google.com/privacy</a> will apply to you.
+            </li>
           </ul>
 
           <h2>4. Cookies and Tracking Technologies</h2>
@@ -149,14 +155,13 @@ export const PrivacyPolicyComponent: FC<{
           </p>
 
           <h2>6. Data Security</h2>
-
           <p>
-            We take reasonable measures to protect the security of your personal
-            information, including using encryption and implementing appropriate
-            technical, administrative, and physical safeguards to prevent
-            unauthorized access, use, or disclosure. However, no method of
-            transmission over the internet or electronic storage is completely
-            secure, and we cannot guarantee absolute security.
+            We use third party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run Gitroom LLC. Although we own the code, databases, and all rights to the Gitroom LLC application, you retain all rights to your data. You can contact us at any time if you would like your data to be completely deleted from our servers.<br/>
+            We are very concerned about safeguarding the confidentiality of your Personal Information. We employ administrative and electronic measures designed to appropriately protect your Personal Information against accidental or unlawful destruction, accidental loss, unauthorized alteration, unauthorized disclosure or access, misuse, and any other unlawful form of processing of the Personal Information in our possession.<br/>
+            Please be aware that no security measures are perfect or impenetrable. We cannot guarantee that information about you will not be accessed, viewed, disclosed, altered, or destroyed by breach of any of our administrative, physical, and electronic safeguards, subject to requirements under applicable law to ensure or warrant information security.<br/>
+            We will make any legally-required disclosures of any breach of the security, confidentiality, or integrity of your unencrypted electronically stored Personal Information to you via email or conspicuous posting on our Site in the most expedient time possible and without unreasonable delay, consistent with (i) the legitimate needs of law enforcement or (ii) any measures necessary to determine the scope of the breach and restore the reasonable integrity of the data system , and any other disclosures that may be required under applicable law.<br/>
+            We also take measures to delete your Personal Information or keep it in a form that does not permit identifying you when this information is no longer necessary for the purposes for which we process it, unless we are required by law to keep this information for a longer period. When determining the retention period, we take into account various criteria, such as the type of products and services requested by or provided to you, the nature and length of our relationship with you, possible re-enrollment with our products or services, the impact on the services we provide to you if we delete some information from or about you, mandatory retention periods provided by law and the statute of limitations.<br/>
+            If you have authorized us to access your Social Network account, you may revoke this access at any time. For example, if you have authorized us to access your information via the <strong>YouTube API services</strong>, in addition to our normal procedure for deleting stored data, you may revoke our access to your data via the Google security settings page, located at <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>
           </p>
 
           <h2>7. Your Rights and Choices</h2>
@@ -166,13 +171,7 @@ export const PrivacyPolicyComponent: FC<{
             information. You may update, correct, or delete your personal
             information by contacting us. You may also opt-out
           </p>
-
-          <h2>8. Google API Services User Data Policy Compliance</h2>
-          <p>
-            Gitroom LLC complies with the Google API Services User Data Policy, including the Limited Use requirements, to ensure the privacy and security of our users{"'"} data. For more details, visit <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Customer Data Policy</a>.
-          </p>
         </div>
       </BlogLayout>
-    </>
-  );
+    </>);
 };

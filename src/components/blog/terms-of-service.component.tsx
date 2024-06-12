@@ -153,6 +153,16 @@ export const TermsOfServiceComponent: FC<{
             If you have any questions or concerns about these Terms of Service,
             please contact us at nevo@gitroom.com
           </p>
+
+          <h2>15. Third Party Terms</h2>
+          <p>
+              Our primary purpose for using information is to publish your content on social networks you{"'"}ve authenticated with.<br />
+              We may allow you to link your account on Gitroom LLC with an account on a third party social network platform, such as YouTube,<br />
+              and to transfer your information to and from the applicable third party platform.<br />
+              Once you connect your content to a social media platform, its use will be governed by that platform’s terms.<br />
+              For example, if you choose to connect your YouTube account to the Services,<br />
+              This connection uses YouTube’s API services, and the YouTube Terms of Service located at <a href="https://www.youtube.com/t/terms" className="underline hover:font-bold">https://www.youtube.com/t/terms</a> will apply to you.
+          </p>
         </div>
       </BlogLayout>
     </>
