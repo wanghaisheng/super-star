@@ -43,7 +43,7 @@ const PricingPlan = ({
       </p>
       <div className='flex flex-col gap-[32px]'>
         <a
-          href={contact ? 'https://cal.com/gitroom/30min' : selfhosted ? "https://docs.gitroom.com/quickstart" : "https://staging.gitroom.com"} target="_blank"
+          href={contact ? 'https://cal.com/gitroom/30min' : selfhosted ? "https://docs.gitroom.com/quickstart" : "https://platform.gitroom.com"} target="_blank"
           className={clsx({
             'rounded-[7px] border-[1px] bg-gradient-to-b py-[16px] text-center': true,
             'border-transparent from-[#AF46FF] to-[#950AFF]': defaultAction,

@@ -20,7 +20,7 @@ const NavigationComponent: FC<{ stars: number }> = (props) => {
           <div className="max-lg:hidden"><Link href="/pricing" className="hover:font-bold underline">Pricing</Link></div>
           <div className="max-lg:hidden"><a href="https://cal.com/gitroom/30min?utm_source=website" className="hover:font-bold underline" target="_blank">Book a call</a></div>
           <div className="max-lg:hidden"><a href="https://docs.gitroom.com" className="hover:font-bold underline" target="_blank">Documentation</a></div>
-          <div className="max-lg:hidden"><a href="https://staging.gitroom.com" className="hover:font-bold underline" target="_blank">Get Started</a></div>
+          <div className="max-lg:hidden"><a href="https://platform.gitroom.com" className="hover:font-bold underline" target="_blank">Get Started</a></div>
           <a href={`https://github.com/${process.env.GITHUB_REPO}`} target="_blank" className="sm:max-w-xs md:mr-0 flex items-center grow bg-nav-stat-gr border border-brand-plum divide-x-2 divide-brand-plum rounded-xl p-1">
               <button className="flex-1 flex items-center justify-center gap-x-5 py-2.5 xl:py-3.5 text-brand-plum font-semibold">
                   <GithubSvg/>
