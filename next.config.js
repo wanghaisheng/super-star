@@ -52,12 +52,12 @@ const nextConfig = {
     return [
         {
           source: '/privacy',
-          destination: process.env.BLOG_PATH + '/privacy-policy',
+          destination: '/privacy-policy',
           permanent: true,
         },
         {
           source: '/terms',
-          destination: process.env.BLOG_PATH + '/terms-of-service',
+          destination: '/terms-of-service',
           permanent: true,
         }
     ];
