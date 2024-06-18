@@ -46,7 +46,10 @@ const nextConfig = {
           source: '/wp-admin',
           destination: process.env.BLOG_PATH + '/wp-admin',
           permanent: false,
-        },
+        }
+      ]
+    }
+    return [
         {
           source: '/privacy',
           destination: process.env.BLOG_PATH + '/privacy-policy',
@@ -57,9 +60,7 @@ const nextConfig = {
           destination: process.env.BLOG_PATH + '/terms-of-service',
           permanent: true,
         }
-      ]
-    }
-    return [];
+    ];
   },
   rewrites() {
     if (process?.env?.BLOG_SERVICE === 'wordpress') {
